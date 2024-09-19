@@ -1,17 +1,18 @@
 1. Clone the Repository
 https://github.com/VipinChauhan1/CountryApp
+then cd CountryApp
 
-2. Navigate to Frontend Directory
+3. Navigate to Frontend Directory
 cd frontend
 Install Frontend Dependencies
 npm install
 
-3. Navigate to Backend Directory
+4. Navigate to Backend Directory
 cd backend
 Install Backend Dependencies
 npm install
 
-4. Running the Application
+5. Running the Application
    In the backend directory, start the Node.js server:
    node server.js
 
