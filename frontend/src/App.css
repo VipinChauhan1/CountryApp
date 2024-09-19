@@ -1,0 +1,105 @@
+/* App.css */
+
+/* Apply global styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  background-color: #f5f5f5; /* Light background color */
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Main app container */
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Content wrapper for centering elements */
+.content-wrapper {
+  text-align: center;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  max-width: 500px;
+  width: 100%;
+}
+
+.app-title {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Styling for the search input */
+input[type="text"] {
+  width: 80%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for the country list */
+.country-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Country card styling */
+.country-card {
+  background-color: #e0f7fa;
+  margin: 10px 0;
+  padding: 20px;
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.country-card:hover {
+  transform: scale(1.05);
+}
+
+.country-card img {
+  width: 80px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.country-card h3 {
+  margin: 0;
+  font-size: 1.5rem;
+  color: #00796b;
+  
+
+}
+
+.country-card p {
+  margin: 5px 0;
+  font-size: 1rem;
+  color: #333;
+}
+@media (max-width: 768px) {
+  .content-wrapper {
+    width: 90%;
+  }
+
+  .country-card {
+    width: 100%;
+  }
+}
